@@ -45,7 +45,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_CACHEIMAGE_PARTITION_SIZE := 694288384
 
 # Properties
-TARGET_SYSTEM_PROP += device/motorola/falcon/system.prop
+TARGET_SYSTEM_PROP += device/motorola/msm8226-common/system.prop
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
